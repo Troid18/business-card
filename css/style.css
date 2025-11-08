@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Momo;
+    src: url(/Fonts/Momo_Trust_Display/MomoTrustDisplay-Regular.ttf);
+}
+
 body{
     margin-top: 100px;
+    background: black;
 }
 
 
@@ -29,7 +35,7 @@ a:hover{
     margin: 0px auto;
     padding: 20px;
     width: 600px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Momo, Geneva, Tahoma, sans-serif;
     font-weight: 200;
     display: flex;
     justify-content: space-around;
@@ -44,7 +50,8 @@ a:hover{
     
     background: #f4f1de;
     border-bottom: 6px solid #354f52;
-    font-family: Verdana, Helvetica, sans-serif;
+    font-family: Momo, Helvetica, sans-serif;
     color: #283618;
 }
+ 
 
